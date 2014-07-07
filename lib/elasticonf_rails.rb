@@ -1,2 +1,2 @@
-module ElastiConfRails
-end
+require 'elasticonf_rails/version'
+require 'elasticonf_rails/railtie'

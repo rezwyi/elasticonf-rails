@@ -1,7 +1,7 @@
-ElastiConfRails
+ElasticonfRails
 ===============
 
-ElastiConfRails integrates [ElastiConf](https://github.com/rezwyi/elasticonf) to your Ruby on Rails application. ElastiConf is a powerfull and flexible application config solution worked in any ruby program.
+ElasticonfRails integrates [Elasticonf](https://github.com/rezwyi/elasticonf) to your Ruby on Rails application. Elasticonf is a powerfull and flexible application config solution worked in any ruby program.
 
 ## Installation
 
@@ -27,7 +27,7 @@ Run this commands in terminal:
 
 ## Versioning
 
-ElastiConfRails uses RubyGems Rational Versioning Policy.
+ElasticonfRails uses RubyGems Rational Versioning Policy.
 
 ## Copyright
 
