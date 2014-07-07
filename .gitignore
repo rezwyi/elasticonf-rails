@@ -1,3 +1,6 @@
 .bundle/
 vendor/bundle
 pkg/
+spec/apps/**/db/*.sqlite*
+spec/apps/**/log/
+spec/apps/**/tmp/

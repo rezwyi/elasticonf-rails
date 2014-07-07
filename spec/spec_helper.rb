@@ -1,9 +1,11 @@
-$:.unshift File.join(File.dirname(__FILE__), '..', 'lib')
+ENV['RAILS_ENV'] ||= 'test'
 
-require 'bundler'
-Bundler.require :default
+app_name = if ENV['APPRAISAL_INITIALIZED']
+  Pathname.new(ENV['BUNDLE_GEMFILE']).basename.to_s.gsub(/\.gemfile\z/, '')
+end
 
-require 'elasticonf_rails'
+require File.join(File.dirname(__FILE__), 'apps', app_name, 'config', 'environment')
+require 'rspec/rails'
 
 RSpec.configure do |config|
   config.treat_symbols_as_metadata_keys_with_true_values = true
