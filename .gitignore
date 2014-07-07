@@ -4,3 +4,4 @@ pkg/
 spec/apps/**/db/*.sqlite*
 spec/apps/**/log/
 spec/apps/**/tmp/
+gemfiles/*.lock
