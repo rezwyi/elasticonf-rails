@@ -1,10 +1,10 @@
 ENV['RAILS_ENV'] ||= 'test'
 
-app_name = if ENV['APPRAISAL_INITIALIZED']
-  Pathname.new(ENV['BUNDLE_GEMFILE']).basename.to_s.gsub(/\.gemfile\z/, '')
+if ENV['APPRAISAL_INITIALIZED']
+  app_name = Pathname.new(ENV['BUNDLE_GEMFILE']).basename.to_s.gsub(/\.gemfile\z/, '')
+  require File.join(File.dirname(__FILE__), 'apps', app_name, 'config', 'environment')
 end
 
-require File.join(File.dirname(__FILE__), 'apps', app_name, 'config', 'environment')
 require 'rspec/rails'
 
 RSpec.configure do |config|
