@@ -1,4 +1,4 @@
-ElasticonfRails [![Build Status](https://travis-ci.org/rezwyi/elasticonf-rails.svg?branch=master)](https://travis-ci.org/rezwyi/elasticonf-rails)
+ElasticonfRails [![Build Status](https://travis-ci.org/rezwyi/elasticonf-rails.svg?branch=master)](https://travis-ci.org/rezwyi/elasticonf-rails) [![Dependency Status](https://gemnasium.com/rezwyi/elasticonf-rails.svg)](https://gemnasium.com/rezwyi/elasticonf-rails)
 ===============
 
 ElasticonfRails integrates [Elasticonf](https://github.com/rezwyi/elasticonf) to your Ruby on Rails application. Elasticonf is a powerfull and flexible application config solution worked in any ruby program.
