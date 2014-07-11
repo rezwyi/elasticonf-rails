@@ -5,3 +5,5 @@ spec/apps/**/db/*.sqlite*
 spec/apps/**/log/
 gemfiles/*.lock
 coverage/
+doc/
+.yardoc
