@@ -2,8 +2,6 @@ language: ruby
 
 rvm:
   - ruby-head
-  - jruby-head
-  - rbx-head
   - 2.1.1
   - 2.1.0
   - 2.0.0
@@ -13,8 +11,7 @@ rvm:
 matrix:
   allow_failures:
     - rvm: ruby-head
-    - rvm: jruby-head
-    - rvm: rbx-head
+    - rvm: 1.9.2
 
 branches:
   only:
