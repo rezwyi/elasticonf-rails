@@ -14,5 +14,12 @@ module ElasticonfRails
       
       Elasticonf.load!
     end
+
+    if Rails.env.development? || Rails.env.test?
+      initializer 'elasticonf.reloader' do |app|
+        # Middleware that reloads Elasticonf on every request
+        app.middleware.use ElasticonfRails::Reloader
+      end
+    end
   end
 end
