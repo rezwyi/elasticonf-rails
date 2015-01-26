@@ -152,6 +152,7 @@ DEPENDENCIES
   appraisal
   coveralls
   elasticonf-rails!
+  minitest
   rake (~> 10.3)
   rspec-rails (~> 2.14.0)
   sqlite3
