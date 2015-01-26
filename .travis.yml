@@ -12,6 +12,7 @@ matrix:
   allow_failures:
     - rvm: ruby-head
     - rvm: 1.9.2
+    - rvm: 2.2.0
 
 branches:
   only:
