@@ -2,6 +2,7 @@ language: ruby
 
 rvm:
   - ruby-head
+  - 2.3.0
   - 2.2.0
   - 2.1.5
   - 2.0.0
@@ -25,3 +26,6 @@ gemfile:
   - gemfiles/rails_4.0.gemfile
   - gemfiles/rails_4.1.gemfile
   - gemfiles/rails_4.2.gemfile
+
+before_install:
+  - gem install bundler
