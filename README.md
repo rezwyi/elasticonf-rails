@@ -21,10 +21,6 @@ Then run `bundle install` to update your's gems bundle.
 
 Will be available soon.
 
-## Documentation
-
-Will be available soon.
-
 ## Testing
 
 Run this commands in terminal:
