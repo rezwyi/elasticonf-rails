@@ -165,4 +165,5 @@ DEPENDENCIES
   rspec-rails (~> 2.14.0)
   sqlite3
   test-unit
+  tins (~> 1.6.0)
   yard (~> 0.8)
