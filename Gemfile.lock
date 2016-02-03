@@ -150,7 +150,7 @@ GEM
       thread_safe (~> 0.1)
     unf (0.1.4)
       unf_ext
-    unf_ext (0.0.7.1)
+    unf_ext (0.0.7.2)
     yard (0.8.7.6)
 
 PLATFORMS
@@ -165,5 +165,4 @@ DEPENDENCIES
   rspec-rails (~> 2.14.0)
   sqlite3
   test-unit
-  tins (~> 1.6.0)
   yard (~> 0.8)
