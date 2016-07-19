@@ -19,7 +19,7 @@ Gem::Specification.new do |s|
 
   s.required_ruby_version = '>= 1.9'
 
-  s.add_dependency 'rails', '>= 3.0'
+  s.add_dependency 'rails', '>= 3.0', '< 5.0'
   s.add_dependency 'elasticonf', '~> 1.1'
 
   s.add_development_dependency 'appraisal'
