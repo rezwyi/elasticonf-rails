@@ -5,9 +5,9 @@ source "https://rubygems.org"
 gem "rails", "~> 4.1.0"
 
 group :test do
-  gem "coveralls", :require => false
+  gem "coveralls", require: false
   gem "minitest"
   gem "test-unit"
 end
 
-gemspec :path => "../"
+gemspec path: "../"
